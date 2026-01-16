@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/pip install:*)",
+      "Bash(.venv/Scripts/python:*)",
+      "Bash(timeout:*)",
+      "Bash(powershell:*)",
+      "Bash(ping:*)",
+      "Bash(.venvScriptspython.exe fix_status_formulas.py)",
+      "Bash(set:*)",
+      "Bash(.venvScriptspython.exe bot/main.py)",
+      "Bash(powershell.exe -NoProfile -Command \"$env:PYTHONPATH=''C:/Users/user/PycharmProjects/lazer''; Set-Location ''C:/Users/user/PycharmProjects/lazer''; ./.venv/Scripts/python.exe bot/main.py\")",
+      "Bash(powershell.exe -NoProfile -Command \"Set-Location ''C:/Users/user/PycharmProjects/lazer''; ./.venv/Scripts/python.exe -c \"\"import sys; sys.path.insert\\(0, ''C:/Users/user/PycharmProjects/lazer''\\); exec\\(open\\(''bot/main.py''\\).read\\(\\)\\)\"\"\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
